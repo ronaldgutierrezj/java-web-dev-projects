@@ -52,10 +52,10 @@ class BalancedBracketsTest {
     public void disorderBracketInTextFalse() {
         assertFalse(BalancedBrackets.hasBalancedBrackets("]launch["));
     }
+    @Test
+    public void text_setbracket_singlebracket() {
+        assertFalse(BalancedBrackets.hasBalancedBrackets("l[au]nc[h"));
+    }
 
-//    @Test
-//    public void nullTest() {
-//        assertFalse(BalancedBrackets.hasBalancedBrackets("]launch["));
-//    }
 
 }
