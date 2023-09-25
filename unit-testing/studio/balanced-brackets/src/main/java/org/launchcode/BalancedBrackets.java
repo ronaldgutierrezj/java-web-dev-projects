@@ -21,7 +21,9 @@ public class BalancedBrackets {
      */
     public static boolean hasBalancedBrackets(String str) {
         int brackets = 0;
+        int setBrackets = 0;
         boolean isOpen = false;
+
 
 
         if(!str.contains("[") && !str.contains("]") && !str.isEmpty() ){
